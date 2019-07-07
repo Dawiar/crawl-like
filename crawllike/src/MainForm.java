@@ -13,7 +13,7 @@ public class MainForm extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                Game.INSTANCE.render(mainPanel.getGraphics());
+              //  Game.INSTANCE.render(mainPanel.getGraphics());
             }
         });
 

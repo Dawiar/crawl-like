@@ -1,8 +1,14 @@
 import enumClasses.TerrainTypes
+import sun.audio.AudioPlayer.player
 import java.awt.Color
 import java.awt.Graphics
 
 class Tile (var terrainType : TerrainTypes, var x : Int, var y : Int){
+
+   //  var entity: Entity
+   // init {
+ //       entity = Player(50,50,10,2,5,10,1,1,1,2)
+//    }
 
     fun paint(g : Graphics)
     {
