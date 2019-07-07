@@ -1,3 +1,4 @@
+import java.awt.Graphics
 import javax.swing.JFrame
 
 object Game {
@@ -13,10 +14,10 @@ object Game {
         mainForm.setSize(650, 650);
         currentLevel = LevelGenerator.GenerateLevel()
 
-        render()
+        //render(mainForm.mainPanel.graphics)
     }
 
-    fun render() {
-        currentLevel?.paint(mainForm.mainPanel.graphics)
+    fun render(g : Graphics) {
+        currentLevel?.paint(g)
     }
 }
