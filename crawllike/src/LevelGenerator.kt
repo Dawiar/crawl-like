@@ -12,6 +12,7 @@ object LevelGenerator {
                                             }
         }
       //  var world = Array(level.boardW) { x-> Array(level.boardH) { Tile(TerrainTypes.FLOOR,x,it) } }
+        level.board[0][0].entity = Player(1,1,1,1,1,1,1,1,1,1)
         return level
     }
 
